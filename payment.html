@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>while fire hoem page</title>
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/payment.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+  
+</head>
+<body>
+
+<!-- 页面主体 -->
+<div class="homePage-bady">
+<div class="payment">
+<div class="fakeImage-container-1"><img src="images/19Left.png" height="100%" >
+  
+</div>
+
+<div class="fakeImage-container">
+  <a href="subscribe.html"> <div class="goBack-container"><img src="images/GoBack.png" width="30px" >
+      <div class="goBack-link"><h6>Back to the website</h6></div>
+  </div>
+ </a>
+  <div class="Promocode-link"><a href="#"><h6>+ Add Promocode</a></h6></div>
+</div>
+
+<div class="fakeImage-container-2">
+
+    <div class="login-container">
+        <h3>Payment Details<br><br></h3>
+        <form action="#" method="post">
+          <div class="input-group">
+            <p>Name on Card</p>
+            <input type="name" placeholder="Name on Card" name="name" required>
+          </div>
+          <div class="input-group">
+            <p>Card Number</p>
+            <input type="text" placeholder="Credit or Debit Card" name="email_phone" required>
+          </div>
+
+          <div class="input-group-two">
+          <div class="input-group-min-1">
+            <p>CVV</p>
+            <input type="password" placeholder="CVV code" name="password" required>
+          </div>
+          <div class="input-group-min-2">
+            <p>Expiry</p>
+            <input type="password" placeholder="MM/YY" name="password" required>
+          </div>
+          </div>
+
+          <div class="input-group">
+            <p>Billing Address</p>
+            <input type="password" placeholder="" name="password" required>
+          </div>
+       
+          <div class="input-group-two">
+            <div class="input-group-min-1">
+              <p>Province</p>
+              <input type="password" placeholder="" name="password" required>
+            </div>
+            <div class="input-group-min-2">
+              <p>Postal Code</p>
+              <input type="password" placeholder="" name="password" required>
+            </div>
+
+            </div>
+            <div class="divider"> 
+                <img src="images/orLine.png" width="100%" height="2%">
+            </div>
+             <div class="button-two"> 
+             <button type="button" class="social-login facebook">
+              <img src="images/pay1.png" alt="Facebook" class="social-icon">
+             </button>
+             <button type="button" class="social-login twitter">
+              <img src="images/pay2.png" alt="Twitter" class="social-icon">
+            </button>
+            </div>
+          <button type="submit">Subscribe</button>
+
+        
+        </form>
+      </div>
+</div>
+
+</div>
+<!-- 页脚 -->
+<div class="footer-container" style="z-index: 999;">
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+    </div>
+    <div class="footer-section">
+      <p>Location:</p>
+      <p>000 100Ave</p>
+    </div>
+    <div class="footer-section">
+      <p>E-mail:</p>
+      <p>123456@gamil.com</p>
+    </div>
+    <div class="footer-section">
+      <p>Call us:</p>
+      <p>(+1)123-456-7890</p>
+    </div>
+    <div class="footer-section-img">
+      <p>Follow us:</p>
+      <img src="images/FollowUs.png"  width="50%" height="60%" >
+    </div>
+  
+  
+</div>
+
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  // Retrieve the stored image source
+  const selectedBg = localStorage.getItem('selectedBg');
+  
+  // Find the image container and set the source if it was stored
+  const fakeImageContainer = document.querySelector('.fakeImage-container-1 img');
+  if (selectedBg && fakeImageContainer) {
+    fakeImageContainer.src = selectedBg;
+  }
+});
+</script>
+</body>
+
+</html>
