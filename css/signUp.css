@@ -26,7 +26,7 @@
     /* border:1px solid wheat; */
 }
 .goBack-link{
-    width: 300px;
+    width: 250px;
     margin-left: 5%;
     /* border:1px solid wheat; */
 
@@ -183,10 +183,10 @@
 
 /* Container for the custom checkbox */
 .checkbox-container {
-    height: 15px;
+    height: 14px;
     display: inline-block;
     position: relative;
-    padding-left: 20px;
+    padding-left: 16px;
     cursor: pointer;
     user-select: none;
     /* border: 1px solid red; */
@@ -206,8 +206,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 15px;
-    width: 15px;
+    height: 12px;
+    width: 12px;
     background-color: white;
     border-radius: 50%;
     border: 2px solid  #31579F;

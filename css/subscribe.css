@@ -10,6 +10,7 @@ body {
     right: 0;
     z-index: -1;
 }
+
 .subscribe-container{
      width: 100vw;
      height: 1300px;
@@ -31,10 +32,19 @@ body {
  }
     
 /* 背景选择框 */
+.selected-container{
+   margin: 0;
+   right: 0;
+   bottom: 28%;
+   position: absolute;
+   width: 100vw;
+   height: 600px;
+   /* border:1px solid red; */
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+}
 .selected-bgs{
-    position: absolute;
-    left: 15.5%;
-    bottom: 28%;
     /* transform: translate(22%,115%); */
     display: flex;
 }
@@ -66,13 +76,22 @@ body {
  }
 
 /* 背景图片 */
+.plan-container{
+   margin: 0;
+   right: 0;
+   bottom: 28%;
+   position: absolute;
+   width: 100vw;
+   height: 600px;
+   /* border:1px solid red; */
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+}
 .plan-bgs{
-    position: absolute;
-    left: 15.5%;
-    bottom: 28%;
     /* transform: translate(22%,115%); */
     display: flex;
-    /* border:1px solid red; */
+
 }
 .plan-bg-1,  
 .plan-bg-2,
@@ -96,11 +115,21 @@ body {
   } 
 
 
+.subscribe-button-container
+{
+   margin: 0;
+   right: 0;
+   bottom: 20%;
+   position: absolute;
+   width: 100vw;
+   height: 100px;
+   /* border:1px solid red; */
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+}
 
  .subscribe-button h6{
-    position: absolute;
-    left : 42%;
-    bottom: 23%;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 40px;
@@ -116,4 +145,7 @@ body {
  .subscribe-button h6:hover{
    background-color: #31579F;
    color: white; 
+}
+.subscribe-button a{
+   text-decoration: none;
 }
