@@ -1,0 +1,84 @@
+body {
+    background-color:#F5F9FF;
+ }
+
+ .homePage-bady{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    }
+    .fakeImage-container{
+    /* border:1px solid black; */
+    }
+    .fakeImage-container img{
+     width: 100vw;
+     /* border:1px solid wheat; */
+    }
+    
+
+.selected-bgs{
+    position: absolute;
+    transform: translate(22%,115%);
+    display: flex;
+}
+
+
+
+.selected-bg-1,  
+.selected-bg-2,
+.selected-bg-3
+{
+   width: 343px;
+   height: 520px;
+   z-index: 2;
+   /* border:1px solid red; */
+}
+
+.selected-bg-1 img,  
+.selected-bg-2 img,
+.selected-bg-3 img 
+{
+    width: 100%;     
+    height: 100%;  
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.2s ease-in;
+  } 
+.selected-bg-1,  
+.selected-bg-2,
+.selected-bg-3:hover{
+   cursor: pointer;
+ }
+ .selected-bg-1{
+
+    transform: translate(0%,0%);
+ }
+ .selected-bg-2{
+    transform: translate(0%,0%);
+ }
+ .selected-bg-3{
+    transform: translate(0%,0%);
+ }
+
+
+ .subscribe-button h6{
+    position: absolute;
+    left : 42%;
+    bottom: 23%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color:  #31579F;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+    border:3px solid #31579F;
+    opacity: 50%;
+    z-index: 999;
+ }
+ .subscribe-button h6:hover{
+   background-color: #31579F;
+   color: white; 
+}

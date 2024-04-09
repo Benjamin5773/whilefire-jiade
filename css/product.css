@@ -1,0 +1,13 @@
+.homePage-bady{
+position: absolute;
+margin: 0;
+padding: 0;
+right: 0;
+}
+.fakeImage-container{
+/* border:1px solid black; */
+}
+.fakeImage-container img{
+ width: 100vw;
+ /* border:1px solid wheat; */
+}

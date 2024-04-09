@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+h1 {
+  font-family: 'FamiljenGrotesk-Bold';
+  font-size: 64px;
+  margin: 0;
+  padding: 0;
+  color: black
+}
+
+
+h2 {
+  font-family: 'FamiljenGrotesk-Bold';
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+   color: black
+}
+
+
+h3 {
+    font-family: 'FamiljenGrotesk-Bold';
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    color:  #31579F;
+}
+
+h4 {
+    font-family: 'FamiljenGrotesk-Bold';
+    font-size: 20px;
+    color: black
+
+}
+
+p {
+    font-family: 'FamiljenGrotesk-Regular';
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+
+h5{
+    font-family: 'FamiljenGrotesk-Bold';
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    color: black
+}
+
+h6{
+    font-family: 'FamiljenGrotesk-Medium';
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: black
+}

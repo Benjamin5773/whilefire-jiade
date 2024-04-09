@@ -1,0 +1,44 @@
+  /* 页脚 */
+  .footer-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.2); 
+    /* border:1px solid red; */
+  }
+
+  .footer-section
+  {
+    margin-right: 10%;
+  }
+
+  
+  .footer-section h3{
+    color: black;
+    padding-left: 10px;
+    /* border:1px solid red; */
+  }
+  .footer-section p {
+    margin: 0 0 1px 0;
+    margin: 0;
+    /* border:1px solid red; */
+  }
+
+  .footer-section-img{
+    position: absolute;
+    width: 300px;
+    right: 2%;
+    display: flex;
+    align-items: center;
+    /* border:1px solid red; */
+  }
+  .footer-section-img img{
+    margin-left: 20px;
+  }
+ 
+  /* @media screen and (min-width: 768px) {
+    .footer-container {
+      padding: 20px 50px;
+    }
+  } */

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'FamiljenGrotesk-Regular';
+	src: url('font/FamiljenGrotesk-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FamiljenGrotesk-Medium';
+	src: url('font/FamiljenGrotesk-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FamiljenGrotesk-SemiBold';
+	src: url('FamiljenGrotesk-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'FamiljenGrotesk-Bold';
+	src: url('font/FamiljenGrotesk-Bold.ttf') format('truetype');
+}
+
+
+

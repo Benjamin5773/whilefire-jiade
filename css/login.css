@@ -1,0 +1,178 @@
+.homePage-bady{
+    padding: 0;
+    margin: 0;
+    right: 0;
+    /* border:1px solid red; */
+}
+.fakeImage-container-1{
+    position: absolute;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    /* border:1px solid black; */
+    }
+.fakeImage-container-1 img{
+    height: 100%;
+    /* border:1px solid wheat; */
+}
+
+.goBack-container{
+    position: absolute;
+    display:flex;
+    z-index: 99;
+    left: 28%;
+    bottom: 20%;
+    /* border:1px solid wheat; */
+}
+.goBack-link{
+    width: 300px;
+    margin-left: 5%;
+    /* border:1px solid wheat; */
+
+}
+.goBack-link h6{
+    color: #31579F;
+    font-weight: 100;
+    text-decoration: none; 
+}
+.goBack-link a{
+    text-decoration: none; 
+}
+
+.fakeImage-container-2{
+    position: absolute;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    right: 12.5%;
+    /* border:1px solid black; */
+
+    }
+.fakeImage-container-2 img{
+    height: 100%;
+
+}
+
+
+.login-container {
+    width: 450px;
+    background: white;
+    text-align: start;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  .input-group p{
+    font-size: 15px;
+  }
+  
+  .input-group input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .forgot-link {
+    margin-bottom: 20px;
+  }
+  
+  .forgot-link a {
+    color: #31579F;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #31579F;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+ 
+  .divider {
+    height:  20px;
+    width:100%;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+    /* border: 1px solid red; */
+    margin-top: 7%;
+    margin-bottom: 7%;
+  }
+  .or{
+    position: absolute;
+   right: 47%;
+  }
+  
+  .divider:before,
+  .divider:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #ccc;
+  }
+  
+  .divider:before {
+    left: 0;
+  }
+  
+  .divider:after {
+    right: 0;
+  }
+  
+  .alternative {
+    margin-bottom: 20px;
+  }
+  
+  .alternative a {
+    color: #31579F;
+  }
+
+
+
+  .social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    color: #31579F;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .social-login.facebook {
+    color: black;
+    background-color: white ; /* Facebook blue color */
+    border:1px solid black;
+  }
+  .social-login.twitter {
+    color: black;
+    background-color: white ; /* Facebook blue color */
+    border:1px solid black;
+  }
+  .social-login img.social-icon {
+    width: 20px; /* Set the width of the logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 8px; /* Add some space between the logo and the text */
+  }

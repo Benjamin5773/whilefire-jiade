@@ -1,0 +1,112 @@
+ /* 上导航 */
+ .upNav-container{
+    position:fixed;
+    width: 100vw;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); /* 水平位置 | 垂直位置 | 模糊半径 | 颜色 */
+    transform: translate(0%,0%);
+    z-index: 1000; 
+    /* border:1px solid red; */
+   
+  }
+  
+  /* logo */
+  .logo-container{
+    height: 52px;
+    position:absolute;
+    display: flex;
+    transform: translate(15%,50%);
+    /* border:1px solid red; */
+  
+  }
+  .logo-container img{
+   width: 85%;
+   height: 85%;
+  
+  }
+  
+  .logo-text a h5{
+    padding-left :15px; 
+    margin: 0;
+    /* border:1px solid red; */
+  }
+ 
+  .logo-text a {
+   text-decoration: none; 
+   }
+  /* 导航栏 */
+  .menu {
+    width: 600px;
+    height: 50px;
+    position:absolute;
+    margin-top: 0rem;
+    margin: 0;
+    text-align: end;
+    transform: translate(50%,50%);
+    z-index: 999;
+    /* border:1px solid wheat; */
+  }
+   
+  .menu ul {
+      list-style: none; 
+      padding: 0; 
+      display: flex;
+      justify-content: flex-start;
+  }
+     
+  .menu ul li h6{
+      display: inline;
+      /* transition: all 0.3s ease-in; */
+     
+  }
+  .menu ul li a {
+   text-decoration: none; 
+   margin-right: 10px;
+   padding-left :10px; 
+   padding-right :10px; 
+   padding-bottom: 30px;
+  }
+  
+  .menu ul li a:hover {
+    border-bottom: 3px solid #31579F;
+  }
+  
+  /* 登录 */
+  .login-container{
+    height: 52px;
+    position: absolute;
+    display: flex;
+    transform: translate(0%,50%);
+    right: 50px;
+    /* border:1px solid red; */
+  
+  }
+  
+  .login-button h6{
+    font-family: 'FamiljenGrotesk-Medium';
+    font-size: 24px;
+    position: absolute;
+    background-color: white;
+    color: #31579F;
+    transform: translate(-190%,10%);
+    border-radius: 5px;
+    margin: 0;
+    padding-left :10px; 
+    padding-right :10px; 
+    padding-bottom :8px;
+    text-decoration: none; 
+    transition: all 0.2s ease-in;
+    border:3px solid #31579F;
+  
+  }
+  
+  .login-button h6:hover{
+    background-color: #31579F;
+    color: white; 
+  
+  }
