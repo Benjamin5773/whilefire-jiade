@@ -30,5 +30,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
       });
     });
+
+      // Find the subscribe button and add a click event to it
+     subscribeButton.addEventListener('click', function() {
+    // Check which background was selected and store the selection
+    if (document.querySelector('.selected-bg-2 img').style.opacity === '1') {
+      localStorage.setItem('selectedBg', 'images/19Left.png');
+    } else if (document.querySelector('.selected-bg-3 img').style.opacity === '1') {
+      localStorage.setItem('selectedBg', 'images/29Left.png');
+    }
+
+    // Navigate to the payment page
+    window.location.href = 'payment.html';
+    });
+
+
   });
   
