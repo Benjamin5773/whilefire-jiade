@@ -1,0 +1,225 @@
+.homePage-bady{
+    padding: 0;
+    margin: 0;
+    right: 0;
+    /* border:1px solid red; */
+}
+.payment{
+    display: flex;
+}
+.fakeImage-container-1{
+    position: relative;
+    height: 100vh;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    /* border:1px solid red; */
+    background-color:#F5F9FF;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    z-index: -1;
+}
+
+
+.goBack-container{
+    position: absolute;
+    display:flex;
+    z-index: 99;
+    left: 9%;
+    top: 11%;
+/* 
+    border:1px solid wheat; */
+}
+.goBack-link{
+    width: 250px;
+    margin-left: 5%;
+    /* border:1px solid wheat; */
+
+}
+.goBack-link h6{
+    color: #31579F;
+    font-weight: 100;
+    text-decoration: none; 
+}
+.goBack-link a{
+    text-decoration: none; 
+}
+
+.Promocode-link{
+    position: absolute;
+    bottom: 30%;
+    left: 29%;
+    /* border:1px solid red; */
+}
+
+.Promocode-link a{
+    font-family: 'FamiljenGrotesk-Regular';
+    color: #31579F;
+    font-weight: 100;
+    text-decoration: none; 
+}
+.fakeImage-container-2{
+    height: 100vh;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    /* border:1px solid black; */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    }
+.fakeImage-container-2 img{
+    height: 100%;
+
+}
+
+
+
+
+.login-container {
+    width: 450px;
+    background: white;
+    text-align: start;
+    /* border:1px solid red */
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    color:black;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  .input-group p{
+    font-size: 15px;
+    
+  }
+  
+  .input-group input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  /* 两个框 */
+  .input-group-two{
+  position: relative;
+  display: flex;
+  /* border: 1px solid red; */
+  margin-bottom: 17%;
+  }
+  .input-group-two p{
+    font-size: 15px;
+  }
+  .input-group-min-1{
+    position: absolute;
+    left: 0px;
+  }
+  .input-group-min-2{
+    position: absolute;
+    right: 10%;
+  }
+  .input-group-min-1 input {
+    width: 115%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .input-group-min-2 input {
+    width: 115%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+
+
+
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #31579F;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  
+ 
+
+  .divider {
+    height:  20px;
+    width:100%;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+    /* border: 1px solid red; */
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .alternative {
+    margin-bottom: 20px;
+  }
+  
+  .alternative a {
+    color: #31579F;
+  }
+
+
+  .button-two{
+    display: flex;
+  }
+  .social-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    border: none;
+    border-radius: 5px;
+    color: #31579F;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  .social-login.facebook {
+    width: 45%;
+    height: 20%;
+    margin-right: 10%;
+    color: black;
+    background-color: white ; /* Facebook blue color */
+    border:1px solid black;
+  }
+  .social-login.twitter {
+    width: 45%;
+    color: black;
+    background-color: white ; /* Facebook blue color */
+    border:1px solid black;
+  }
+  .social-login.facebook img{
+    width: 20%;
+    margin-right: 8px;
+  }
+
+  .social-login.twitter img{
+    width: 30%;
+    margin-right: 8px;
+  }
+
