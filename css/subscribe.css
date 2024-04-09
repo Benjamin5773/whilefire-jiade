@@ -4,19 +4,33 @@ body {
 
  .homePage-bady{
     position: absolute;
+    top: 25%;
     margin: 0;
     padding: 0;
     right: 0;
-    }
-    .fakeImage-container{
-    /* border:1px solid black; */
-    }
-    .fakeImage-container img{
+    z-index: -1;
+}
+.subscribe-container{
      width: 100vw;
-     /* border:1px solid wheat; */
-    }
-    
+     height: 1300px;
+    /* border:1px solid black; */
+}
+.fire-container{
+    display: flex;
+    /* border:1px solid red; */
+}
+.fire-container img{
+   position: absolute;
+   right: 13%;
+}
 
+.fire-text{
+    position: absolute;
+    left: 18%;
+    top: 12%;
+ }
+    
+/* 背景选择框 */
 .selected-bgs{
     position: absolute;
     left: 15.5%;
@@ -24,8 +38,6 @@ body {
     /* transform: translate(22%,115%); */
     display: flex;
 }
-
-
 
 .selected-bg-1,  
 .selected-bg-2,
@@ -52,16 +64,37 @@ body {
 .selected-bg-3:hover{
    cursor: pointer;
  }
- .selected-bg-1{
 
-    transform: translate(0%,0%);
- }
- .selected-bg-2{
-    transform: translate(0%,0%);
- }
- .selected-bg-3{
-    transform: translate(0%,0%);
- }
+/* 背景图片 */
+.plan-bgs{
+    position: absolute;
+    left: 15.5%;
+    bottom: 28%;
+    /* transform: translate(22%,115%); */
+    display: flex;
+    /* border:1px solid red; */
+}
+.plan-bg-1,  
+.plan-bg-2,
+.plan-bg-3
+{
+   width: 343px;
+   height: 520px;
+   z-index: 2;
+   /* border:1px solid red; */
+}
+
+.plan-bg-1 img,  
+.plan-bg-2 img,
+.plan-bg-3 img 
+{
+    width: 100%;     
+    height: 100%;  
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+  } 
+
 
 
  .subscribe-button h6{
