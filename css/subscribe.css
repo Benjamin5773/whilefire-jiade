@@ -19,7 +19,9 @@ body {
 
 .selected-bgs{
     position: absolute;
-    transform: translate(22%,115%);
+    left: 15.5%;
+    bottom: 28%;
+    /* transform: translate(22%,115%); */
     display: flex;
 }
 
