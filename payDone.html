@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>while fire hoem page</title>
+  <link href="css/fonts.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/payDone.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+  
+</head>
+<body>
+
+<!-- 页面主体 -->
+<div class="homePage-bady">
+<div class="payDone">  
+    <div class="bgImg">  
+    <img src="images/payDone.png" width="100%">
+    </div>
+</div>
+
+<div class="payDone-button-container"> 
+    <div class="payDone-button"><p><a href="index.html">Back to the website</p></h6></div>
+</div>
+
+<!-- 页脚 -->
+<div class="footer-container">
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+    </div>
+    <div class="footer-section">
+      <p>Location:</p>
+      <p>000 100Ave</p>
+    </div>
+    <div class="footer-section">
+      <p>E-mail:</p>
+      <p>123456@gamil.com</p>
+    </div>
+    <div class="footer-section">
+      <p>Call us:</p>
+      <p>(+1)123-456-7890</p>
+    </div>
+    <div class="footer-section-img">
+      <p>Follow us:</p>
+      <img src="images/FollowUs.png"  width="50%" height="60%" >
+    </div>
+  
+  
+</div>
+
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  // Retrieve the stored image source
+  const selectedBg = localStorage.getItem('selectedBg');
+  
+  // Find the image container and set the source if it was stored
+  const fakeImageContainer = document.querySelector('.fakeImage-container-1 img');
+  if (selectedBg && fakeImageContainer) {
+    fakeImageContainer.src = selectedBg;
+  }
+});
+</script>
+</body>
+
+</html>
