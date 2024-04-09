@@ -223,3 +223,7 @@
     margin-right: 8px;
   }
 
+  .subscribe-button a{
+    color: white;
+    text-decoration: none;
+    }
